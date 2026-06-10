@@ -7,7 +7,7 @@ export default function Nav() {
         <div className="flex items-center gap-2 font-semibold text-[15px] tracking-tight">
           <a 
             className="w-8 h-8 rounded-md bg-linear-to-br from-yume-pink to-yume-magenta flex items-center justify-center"
-            href="#"
+            href=""
           >
             <BsIncognito size="1.7em"/>
           </a>
@@ -23,6 +23,7 @@ export default function Nav() {
 
         <a
           href="https://chromewebstore.google.com/detail/job-hunter/jlnhedkbdmnnglfjihhhbahceodgnflp?authuser=0&hl=en"
+          target="_blank"
           className="bg-linear-to-br from-yume-pink to-yume-magenta hover:from-yume-magenta hover:to-yume-pink text-white px-4 py-2 rounded-lg text-[13px] font-semibold hover:scale-105 hover:shadow-lg hover:shadow-white/15 transition-all"
         >
           Try the beta
