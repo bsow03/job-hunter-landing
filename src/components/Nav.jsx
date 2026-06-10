@@ -7,7 +7,7 @@ export default function Nav() {
         <div className="flex items-center gap-2 font-semibold text-[15px] tracking-tight">
           <a 
             className="w-8 h-8 rounded-md bg-linear-to-br from-yume-pink to-yume-magenta flex items-center justify-center"
-            href="#"
+            href="https://chromewebstore.google.com/detail/job-hunter/jlnhedkbdmnnglfjihhhbahceodgnflp?authuser=0&hl=en"
           >
             <BsIncognito size="1.7em"/>
           </a>
