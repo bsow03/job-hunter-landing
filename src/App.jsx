@@ -6,6 +6,7 @@ import Features from './components/Features'
 import ProTier from './components/ProTier'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <ProTier />
       <FAQ />
       <Footer />
+      <Analytics />
     </div>
   )
 }
